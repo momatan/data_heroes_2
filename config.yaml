@@ -1,20 +1,29 @@
 items:
   - id: 1
     name: "Alchohol"
-    description: "description1"
   - id: 2
     name: "DMBOK"
-    description: "description2"
   - id: 3
     name: "DCR"
-    description: "description3"
+  - id: 4
+    name: "CDO"
+  - id: 5
+    name: "Influencer"
+  - id: 6
+    name: "Metal bat"
+  - id: 7
+    name: "Cat"
+  - id: 8
+    name: "High-performance LLM"
+  - id: 9
+    name: "Open Data"
+  - id: 10
+    name: "BI Tool (OSS)"
 events:
   - id: 1
-    name: "event1"
-    description: "event description1"
   - id: 2
-    name: "event2"
-    description: "event description2"
   - id: 3
-    name: "event3"
-    description: "event description3"
+  - id: 4
+  - id: 5
+  - id: 6
+  - id: 7

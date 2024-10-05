@@ -6,13 +6,33 @@ import random
 with open('config.yaml') as file:
     config = yaml.load(file, Loader=yaml.FullLoader)
 
+
+# add circle image small size
+st.image('imgs/circle.jpg', width=100)
+
 # add title
 st.markdown('# おいでよ Data Heroes 体験版')
 
 # japanese title
 st.markdown('### 遭遇した状況を3つのアイテムで解決しよう！')
+st.write('''
+遭遇した状況を3つのアイテムで解決するゲームです。
+以下のボタンを押すと、ランダムに状況とアイテムが表示されます。
+あなたの解決策をみんなに説明しましょう。過半数が納得したら成功です。
+アイテムはすべて使わなくても構いませんが、使ったアイテムの数が多いほど高得点です。
+''')
 # english title
 st.markdown('### Solve the event with 3 items!')
+st.write('''
+This is a game to solve the event with 3 items.
+Press the button below to show a random event and 3 items.
+Explain your solution to everyone. If more than half of the people agree, you succeed.
+You don't have to use all the items, but the more items you use, the higher your score.
+''')
+
+# # ad text
+# st.markdown('### 製品版のボードゲームは技術書典17にて頒布予定です。')
+# st.markdown('### The board game will be available at the event "Techbook Fest 17".')
 
 # add button to show items and event
 if st.button('Show me a random event and 3 items'):
