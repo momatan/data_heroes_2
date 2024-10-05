@@ -14,9 +14,9 @@ items:
   - id: 7
     name: "Cat"
   - id: 8
-    name: "High-performance LLM"
-  - id: 9
     name: "Open Data"
+  - id: 9
+    name: "High-performance LLM"
   - id: 10
     name: "BI Tool (OSS)"
 events:
